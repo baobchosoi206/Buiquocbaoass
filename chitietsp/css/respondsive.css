@@ -1,0 +1,316 @@
+/* hình trên cùng top menu */
+@media screen and (max-width: 1200px) {
+  .header-top_imggioithieu img {
+    width: 950px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header-top_img_2 {
+    display: none;
+  }
+  .header-top_img_1 {
+    display: block;
+  }
+}
+@media screen and (max-width: 765px) {
+  .header-top_img_1 {
+    display: none;
+  }
+  .header-top {
+    background: linear-gradient(to bottom, #1d8f04, #99f384);
+  }
+  .header-menu_list {
+    padding-bottom: 0;
+    width: 100%;
+    justify-content: space-between;
+  }
+  /* đang fixx lỗi=============================> */
+  /* .header-menu_list {
+      display: flex;
+      justify-content: center;
+    } */
+  .header-menulist-2_full {
+    width: 100%;
+  }
+  /* ẩn hiện logo */
+  .header-menu_img-thuonghieu {
+    display: none;
+  }
+  .header-menu_img-thuonghieu_chu_B {
+    display: block;
+  }
+}
+/* banner headder==== */
+@media screen and (max-width: 1146px) {
+  .header-qc_banner_right {
+    display: none;
+  }
+  .header-qc_banner_left {
+    width: 100%;
+    padding-right: 0;
+  }
+}
+@media screen and (max-width: 778px) {
+  .header-qc_banner_content_box {
+    display: none;
+  }
+  .header-qc_banner_img_left {
+    height: 100%;
+  }
+  .header-qc_banner_img_left img {
+    margin-bottom: 0;
+    height: 100%;
+  }
+  /* .header-danhmuc_sp_box {
+      display: inline-block;
+    } */
+  .header-danhmuc-hang-1,
+  .header-danhmuc-hang-2 {
+    width: 100%;
+  }
+  .header-danhmuc_sp_flex {
+    flex-grow: 1;
+  }
+}
+/* ẩn menu top */
+@media screen and (max-width: 1105px) {
+  .header-menu-list-5 {
+    display: none;
+  }
+  .header-menu-list-6 {
+    margin-left: 23px;
+  }
+}
+@media screen and (max-width: 931px) {
+  .header-menu-list-8 {
+    display: none;
+  }
+}
+@media screen and (max-width: 823px) {
+  .header-menu-list-7 {
+    display: none;
+  }
+  .header-menu-list-6 {
+    margin: 0 22px;
+  }
+}
+@media screen and (max-width: 758px) {
+  .header-menu-list-6 {
+    display: none;
+  }
+  .header-menu-list-4 {
+    margin-right: 22px;
+  }
+  /* tăng height hình quảng cáo */
+  .main_sanpham_img_quangcao img {
+    height: 50px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .header-menu-list-4,
+  .header-menu-list-9 {
+    display: none;
+  }
+  /* xuống hàng */
+  .header-danhmuc_sp_box {
+    /* display: inline-block; */
+    display: inline-flex;
+    flex-wrap: wrap;
+  }
+  .header-menu_right_anhien img {
+    display: block;
+  }
+  .header-top_container {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 999999;
+  }
+
+  /*header -cách top */
+  .header-qc_container {
+    margin-top: 60px;
+  }
+}
+/* Khối nhận voicher */
+@media screen and (max-width: 1111px) {
+  .header-menulist-5_full {
+    padding: 10px 15px;
+  }
+}
+@media screen and (max-width: 705px) {
+  .header-danhmuc_sp_vienimg {
+    width: 60px;
+    height: 60px;
+  }
+}
+/* danh mục sản phẩm++++ */
+@media screen and (max-width: 527px) {
+  .header-danhmuc_sp_bogoc_right {
+    border-top-right-radius: 0;
+  }
+  .header-danhmuc_sp_media_bogoc_right_top {
+    border-top-right-radius: 8px;
+  }
+  .header-danhmuc_sp_media_bogoc_left_bottom {
+    border-bottom-left-radius: 8px;
+  }
+  .header-danhmuc_sp_bogoc_left {
+    border-bottom-left-radius: 0;
+  }
+  .header-danhmuc_sanpham_img {
+    width: 40px;
+    height: 40px;
+  }
+  .header-danhmuc_sanpham_content {
+    text-align: center;
+  }
+}
+/* ẩn menu top  */
+@media screen and (max-width: 992px) {
+  .header-list_container {
+    display: none;
+  }
+}
+/* ====ẩn sản phẩm  */
+@media screen and (max-width: 860px) {
+  /* .main-sanpham_hang1 > :nth-child(5) {
+      display: none;
+    } */
+  /* .main-sanpham_hang2 > :nth-child(5) {
+      display: none;
+    } */
+  /* .main-sanpham_hang3 > :nth-child(5) {
+      display: none;
+    } */
+
+  .main-sanpham_box_bottom {
+    width: 24%;
+  }
+  .main-sanpham_gia {
+    font-size: 13px;
+  }
+  /* khối sản phẩm deal */
+  .header-deal_ful_sanpham_boxchild > :nth-child(5) {
+    display: none;
+  }
+  .header-deal_box_bottom {
+    width: 24%;
+  }
+  /* chữ nhỏ deal  */
+  .header-deal_gia {
+    font-size: 13px;
+  }
+  /* font size sp deal */
+  .header-deal_box_gialendoi > :nth-child(1) {
+    font-size: 12px;
+    color: rgb(83, 83, 83);
+    display: flex;
+    align-items: center;
+  }
+  .header-deal_box_gialendoi > :nth-child(2) {
+    color: red;
+    font-size: 14px;
+  }
+  /* chữ nhỏ khung sp chính */
+  .main-sanpham_box_gialendoi > :nth-child(1) {
+    font-size: 12px;
+    color: rgb(83, 83, 83);
+    display: flex;
+    align-items: center;
+  }
+  .main-sanpham_box_gialendoi > :nth-child(2) {
+    color: red;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 630px) {
+  /* .main-sanpham_hang1 > :nth-child(4) {
+      display: none;
+    }
+    .main-sanpham_hang2 > :nth-child(4) {
+      display: none;
+    }
+    .main-sanpham_hang3 > :nth-child(4) {
+      display: none;
+    } */
+  .main-sanpham_box_bottom {
+    width: 32.3333333%;
+  }
+  /* khối sản phẩm deal */
+  .header-deal_ful_sanpham_boxchild > :nth-child(4) {
+    display: none;
+  }
+  .header-deal_box_bottom {
+    width: 32.3333333%;
+  }
+  .header-deal_box_top > :nth-child(3) {
+    display: none;
+  }
+}
+@media screen and (max-width: 530px) {
+  /* .main-sanpham_hang1 > :nth-child(3) {
+      display: none;
+    }
+    .main-sanpham_hang2 > :nth-child(3) {
+      display: none;
+    }
+    .main-sanpham_hang3 > :nth-child(3) {
+      display: none;
+    } */
+  .main-sanpham_box_bottom {
+    width: 49%;
+  }
+  /* khối sản phẩm deal */
+  .header-deal_ful_sanpham_boxchild > :nth-child(3) {
+    display: none;
+  }
+  .header-deal_box_bottom {
+    width: 49%;
+  }
+
+  .header-deal_box_top > :nth-child(1) {
+    font-size: 14px;
+    margin: 10px 0 5px 0;
+  }
+  .header-deal_box_top img {
+    max-width: 80%;
+  }
+  .header-deal_box_top {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+/* footer====== */
+@media screen and (max-width: 756px) {
+  .footer_bottom_box_left {
+    width: 100%;
+    justify-content: space-around;
+  }
+  .footer_bottom_box_right {
+    width: 100%;
+    justify-content: space-around;
+  }
+}
+@media screen and (max-width: 950px) {
+  .footer-top_box {
+    justify-content: flex-start;
+  }
+}
+/* chia phần trăm khối footer */
+@media screen and (max-width: 656px) {
+  .footer_main_5cot {
+    width: 25%;
+  }
+}
+@media screen and (max-width: 530px) {
+  .footer_main_5cot {
+    width: 33.3333333%;
+  }
+}
+@media screen and (max-width: 422px) {
+  .footer_main_5cot {
+    width: 50%;
+  }
+}

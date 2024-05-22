@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(250, 250, 250);
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.box {
+  width: 310px;
+  height: 340px;
+  /* background: pink; */
+  border: 1px solid rgb(139, 139, 139);
+  /* backdrop-filter: blur(20px); */
+  background: white;
+  box-shadow: 0 0 5px 1px rgb(153, 153, 153);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+}
+.tittle {
+  text-align: center;
+}
+.input_tk_mk {
+  width: 280px;
+  height: 40px;
+  border-radius: 8px;
+  border: 1px solid rgb(146, 146, 146);
+
+  outline: none;
+}
+.input-1 {
+  margin-top: 20px;
+}
+.input-2 {
+  margin-top: 20px;
+}
+.box_input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.input-1,
+.input-2 {
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+}
+.content_tk_mk {
+  position: absolute;
+  left: 4px;
+  color: rgb(129, 129, 129);
+  font-size: 15px;
+  padding: 2px 5px;
+  background: white;
+  transition: all 0.2s linear;
+  pointer-events: none;
+}
+.input_tk_mk:focus + .content_tk_mk,
+.input_tk_mk:valid + .content_tk_mk {
+  transform: translateX(12px) translateY(-20px);
+  font-size: 12px;
+  font-weight: bold;
+}
+.input_tk_mk:focus {
+  border: 1.5px solid greenyellow;
+}
+.check_box_box {
+  display: flex;
+}
+.forgot a {
+  color: blue;
+}
+.full_checkbox {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  font-size: 14px;
+}
+.check_box_box p {
+  margin-left: 4px;
+}
+.submit input {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid green;
+  background: rgb(177, 248, 130);
+  margin-top: 40px;
+  height: 35px;
+  font-size: 16px;
+  color: rgb(65, 64, 64);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.submit input:hover {
+  background: rgb(149, 236, 91);
+  color: rgb(250, 247, 240);
+}
+.login_gg,
+.login_fb {
+  width: 134px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  border-radius: 3px;
+  color: white;
+}
+.login_fb {
+  background: #1168eb;
+}
+.login_gg {
+  background: #e2d899;
+}
+.login_img_fb,
+.login_img_gg {
+  width: 20px;
+  height: 20px;
+}
+.box_lienket {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.box_img-fb,
+.box_img-gg {
+  border-right: 1px solid rgb(255, 255, 255);
+  height: 100%;
+  width: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 5px;
+}
+.box_lienket a {
+  text-decoration: none;
+}

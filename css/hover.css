@@ -1,0 +1,60 @@
+/* Hover menu voucher===== */
+.header-menulist-5_full:hover {
+  background: rgba(255, 255, 255, 0.4);
+}
+/* hover menu gọi ngay==== */
+.header-menulist-4_full:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+/* đăng nhập */
+.header-menulist-9_full:hover {
+  background: rgba(255, 255, 255, 0.4);
+}
+/* menu dưới banner */
+.header-danhmuc_sp_6phan_hover:hover {
+  box-shadow: 4px 0 4px -2px rgb(139, 139, 139),
+    -4px 0 4px -2px rgb(139, 139, 139);
+  position: relative;
+}
+.header-danhmuc_sp_box6phan_box:hover .header-danhmuc_sanpham_img {
+  transform: translateY(-6px);
+}
+.header-danhmuc_sp_6phan_hover-right:hover {
+  box-shadow: 4px 0 4px -2px rgb(139, 139, 139);
+  position: relative;
+}
+.header-danhmuc_sp_6phan_hover-left:hover {
+  box-shadow: -4px 0 4px -2px rgb(139, 139, 139);
+  position: relative;
+}
+/* Chữ của list sổ xuống */
+.header-list_1_soxuong_container a:hover {
+  color: #1e8e04;
+}
+/* khu vực hover menu sổ xuống */
+.header-list_full_hover:hover ::after {
+  visibility: visible;
+  filter: opacity(1);
+  width: 95%;
+}
+
+.header-list_full_hover:hover .header-list_1_soxuong_container,
+.header-list_full_hover:hover .header-list_1_soxuong_tintuc_container {
+  filter: opacity(1);
+  visibility: visible;
+}
+/* hover khu deal */
+.header-deal_box_sanpham:hover .header-deal_sp_nd_sp_box img {
+  transform: translateY(-12px);
+}
+/* hover sản phẩm điện thoại */
+.main-sanpham_box_bottom:hover {
+  box-shadow: 0 0 4px 2px rgb(148, 148, 148);
+}
+.main-sanpham_box_sanpham:hover .main-sanpham_sp_nd_sp_box > :nth-child(1) {
+  transform: translateY(-12px);
+}
+/* hover đầu mục sp */
+.main-sanpham_color_text_gioithieusp_hover:hover {
+  color: rgb(72, 153, 228);
+}
